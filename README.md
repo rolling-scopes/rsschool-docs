@@ -2,6 +2,9 @@
 
 ### RSSchool MVP
 
+### Owners
+  - Tasks checking @Tsikhan Shcharbakou
+
 ### Users:
   - Students  
   - Mentors
