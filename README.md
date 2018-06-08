@@ -1,6 +1,6 @@
 # rsschool-docs
 
-### RSSchool MVP
+### RSSchool MVP - 10-SEP-2018
 
 ### Owners
   -  Tsikhan Shcharbakou / Nikita Rudy (Task creation / Tasks review / Task automated checking)
