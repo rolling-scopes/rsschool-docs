@@ -3,7 +3,7 @@
 ### RSSchool MVP
 
 ### Owners
-  - Tasks checking @Tsikhan Shcharbakou
+  -  Tsikhan Shcharbakou / Nikita Rudy (Task creation / Tasks review / Task automated checking)
 
 ### Users:
   - Students  
