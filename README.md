@@ -1,42 +1,20 @@
-# rsschool-docs
+# The Rolling Scopes School App
 
-### RSSchool MVP - 10-SEP-2018
+### MVP Release Date - 10-SEP-2018
 
-### Owners
-  -  Tsikhan Shcharbakou / Nikita Rudy (Task creation / Tasks review / Task automated checking)
-
-### Users:
-  - Students  
-  - Mentors
-  - Admins
-
-### Students
-  - Schedule (read-only). 
-      1) Возможность оставить фидбек по отдельно взятой лекции. В рамках MVP фидбек будет сохраняться в гугл форму c pre-filled полем (Например, https://docs.google.com/forms/d/e/1FAIpQLSfEu_DBwq2YN3VuHpEvgIT6FuS5pb9fFGH3MGshbKECJibvKQ/viewform?usp=pp_url&entry.683149895=JavaScript+Intro).
-  - Tasks
-    - В #stage1 студенты решают алгоритмические таски в своём public репозитории. Сдача таска через выбор public репозитория в интерфейсе системы. Это функциональность есть в https://epa.ms/padawans-2018
-    - В #stage2-3 в private репозиторий. Без автоматической проверки. Когда таск готов, студент нажимает кнопку "Ready for review". Оценку ставит ментор.
-   - Profile ([как в прототипе](https://sonejka.github.io/rs-kittens/dist/student-profile.html))
-   - Your mentor ([как в прототипе](https://sonejka.github.io/rs-kittens/dist/student-mentor.html))
-   
-    
-### Mentors
-  - Profile ([как в прототипе](https://sonejka.github.io/rs-kittens/dist/mentor-profile.html))
-  - Могут выставлять оценки своим студентам по таскам/презентациям. комментарии к оценкам? **(TBD)**
-  - Могут отчислять студентов, указывая причину
-  - Могут выдавать темы презентаций
-  - Могут записывать результаты интервью
-  - 
+### Prototype
+  - https://sonejka.github.io/rs-kittens/dist/
   
-### Admins
- - Может создовать менторов на основании гугл формы (csv/excel и т.д.)
- - Система должна высласть инвайты менторам нового набора **(TBD)**
- - Может создавать занятия (aka  sessions) и таски
- - Возможность выгрузить общий score со всеми оценками в excel. 
- - Возможность перевести студента к другому ментору. (Добавлять/удалять студентов у менторов в ручную)
- - Возможность отчислить студента / ментора
- - Возможность просмотреть профайлы менторов и студентов
- - Аналитика 
-    - Даты и время, когда студенты/менторы последний раз заходили в систему
- - Возможность залить оценки по определенному таску из excel. Формат: github аккаунт студента - оценка. Будет использоваться для тестов по html/css и т.д.  
+### Contributing
+https://gist.github.com/apalchys/71c36f71c314a725b9bd05fac5f6f801
+
+### Crew
+  - [Dzmitry Varabei @dzmitry-varabei](https://github.com/dzmitry-varabei/) - Project Owner
+  - [Andrei Palchys @apalchys](https://github.com/apalchys) - Dev Lead
+  - [Kseniya Varabei @sonejka](https://github.com/sonejka) - UX & Prototype
+  - [Tsikhan Shcharbakou @forkollaider](https://github.com/forkollaider) - Tasks CRUD / Review / Automated Checking 
+  - [Nikita Rudy @NikitaRudy](https://github.com/NikitaRudy) - Tasks CRUD / Review / Automated Checking 
+  - [Siarhei Smantsar @SIARHEI-SMANTSAR](https://github.com/SIARHEI-SMANTSAR) - Calendar 
+
+
  
