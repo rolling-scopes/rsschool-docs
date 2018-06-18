@@ -14,7 +14,7 @@
 - The User should have admin rights and stay on the Schedule page
 
 ### Basic Course of Events
-1. The User indicates that Schedule page has "Add Task" button. 
+1. The User notices that Schedule page has "Add Task" button. 
 2. The User clicks that button. 
 3. The "New Task" form appears on the page under button block.
 4. The User fills the required "Title" field. 
