@@ -24,7 +24,11 @@
 8. The pop-up window hides from the page.
 
 ### Alternative Paths
-- In step 7, The User can decide not to delete the task/session from the schedule. In this case, the User clicks the "No" button. The pop-up window hides from the page.
+- In step 7, The User can decide not to delete the task/session from the schedule. The User has some ways to close the pop-up window:
+  - click on the "backdrop" of the pop-up window ;
+  - click the iconic "X" button in the upper right corner;
+  - click the "No" button.
+- The pop-up window hides from the page.
 
 ### Postconditions
 In case of the successfully deleting task/session, the task/session hides from the Schedule.
