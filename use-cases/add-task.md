@@ -16,7 +16,7 @@
 ### Basic Course of Events
 1. The User notices that Schedule page has "Add Task" button. 
 2. The User clicks that button. 
-3. The "New Task" form appears on the page under button block.
+3. The "New Task" form appears in the pop-up window.
 4. The User fills the required "Title" field. 
 5. The User chooses "required" Task Type from the dropdown list. The possible types:
     - Task 
@@ -39,10 +39,10 @@
     - Duolingo
 11. The User fills the required "URL to Gist/GitHub Markdown File with task description" field. The User should provide a link to the Gist/GitHub Markdown File with task description.
 12. The User clicks the "Save" button to add the task to Schedule. If the form was filled in the right way, see Step 13. In case of wrong filling of some fields, the system shows "valid" or "invalid" feedback under all fields.
-13. The "New Task" form hides from the page.
+13. The "New Task" pop-up window hides from the page.
 
 ### Alternative Paths
-- In steps 4-11, The User can decide not to add the new task to the schedule. In this case, the User clicks the "Cancel" button. Then the "New Task" form hides from the page. 
+- In steps 4-11, The User can decide not to add the new task to the schedule. In this case, the User clicks the "Cancel" button. Then the "New Task" pop-up window hides from the page. 
 
 ### Postconditions
 In case of the successfully adding task, the added task is shown in the schedule in the special place(s): 
