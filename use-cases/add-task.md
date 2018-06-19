@@ -42,7 +42,11 @@
 13. The "New Task" pop-up window hides from the page.
 
 ### Alternative Paths
-- In steps 4-11, The User can decide not to add the new task to the schedule. In this case, the User clicks the "Cancel" button. Then the "New Task" pop-up window hides from the page. 
+- In steps 4-11, The User can decide not to add the new task to the schedule. The User has some ways to close the pop-up window:
+    - click on the "backdrop" of the pop-up window ;
+    - click the iconic "X" button in the upper right corner;
+    - click the "Cancel" button.
+- Then the "New Task" pop-up window hides from the page. 
 
 ### Postconditions
 In case of the successfully adding task, the added task is shown in the schedule in the special place(s): 
