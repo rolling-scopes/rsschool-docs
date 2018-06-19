@@ -32,7 +32,11 @@
 12. The "New Session" pop-up window hides from the page.
 
 ### Alternative Paths
-- In steps 4-10, The User can decide not to add the new session to the schedule. In this case, the User clicks the "Cancel" button. Then the "New Session" pop-up window hides from the page. 
+- In steps 4-10, The User can decide not to add the new session to the schedule. The User has some ways to close the pop-up window:
+    - click on the "backdrop" of the pop-up window ;
+    - click the iconic "X" button in the upper right corner;
+    - click the "Cancel" button. 
+- Then the "New Session" pop-up window hides from the page. 
 
 ### Postconditions
 In case of the successfully adding session, the added session is shown in the schedule in the special place according to the date and time. Otherwise, the Schedule is unchanged.
