@@ -48,3 +48,6 @@
             - "Copy" (see the ["Copy Task or Session"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/copy-task-or-session.md) use case)
             - "Edit" (see the ["Edit Task or Session"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/edit-task-or-session.md) use case)
             - "Delete" (see the ["Delete Task or Session"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/delete-task-or-session.md) use case)
+            
+### Prototype 
+- https://sonejka.github.io/rs-kittens/dist/admin-schedule.html
