@@ -8,7 +8,7 @@
 - The User should have admin rights and stay on the Schedule page
 
 ### Description
-- The Schedule page enables the User to add, delete or edit the Schedule items (sessions and tasks). The Schedule is up-to-date as a result.
+- The Schedule page enables the User to add, delete or edit the Schedule items (sessions and tasks; stages). The Schedule is up-to-date as a result.
 
 ### Navigation 
 - Navigation to the Schedule page is by clicking the "Schedule" link in the navigation area in the upper right page corner.
@@ -27,6 +27,11 @@
     - Type: Button
     - Behaviour: when the User clicks on this button, the "Add Task" pop-up window appears.
     - Comments: see the ["Add Task"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/add-task.md) use case.
+    
+    ##### Stage Title:
+     - Buttons: 
+         - "Edit" (see the ["Edit Stage"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/edit-stage.md) use case)
+        - "Delete" (see the ["Delete Stage"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/delete-stage.md) use case)
     
     ##### "Schedule" Row
      - Type: Button
@@ -48,6 +53,11 @@
             - "Copy" (see the ["Copy Task or Session"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/copy-task-or-session.md) use case)
             - "Edit" (see the ["Edit Task or Session"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/edit-task-or-session.md) use case)
             - "Delete" (see the ["Delete Task or Session"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/delete-task-or-session.md) use case)
+       
+     ##### "Add Stage"
+     - Type: Button
+     - Behaviour: when the User clicks on this button, the "Add Stage" pop-up window appears.
+     - Comments: see the ["Add Stage"](https://github.com/rolling-scopes/rsschool-docs/blob/master/use-cases/add-stage.md) use case.
             
 ### Prototype 
 - https://sonejka.github.io/rs-kittens/dist/admin-schedule.html
