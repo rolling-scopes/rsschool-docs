@@ -4,10 +4,10 @@
 ```
 studentId           
 assigmentRepo        #string
-assigmentComment     #markdown string
+assigmentComment     #markdown string with predefined template
 completeDate
 mentorId
-mentorComment        #markdown string
+mentorComment        #markdown string with predefined template
 mentorScore          #number 
 checkDate
 ```
