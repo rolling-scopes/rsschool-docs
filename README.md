@@ -36,25 +36,41 @@
       - Admin (принадлежность к роли на основании конфигурации в репозитории)
       - Mentor (лекторы тоже относятся к данной категории) 
       - Student 
-   2. Login Page
+   2. Login Page ([Прототип](https://sonejka.github.io/rs-kittens/dist/login.html))
       - Возможность залогиниться как студент или как ментор
       - Все пользователи (менторы и студенты) логинятся только через GitHub
       - Все пользователи автоматически ассайнятся на курс 2018Q3
       - Админ должен аппрувнуть профайл ментора после его заполнения ментором
-      - Студенты автоматически ассайнятся в общую группу без ментора
-   3. Admin Page
+      - Студенты автоматически ассайнятся в общую группу "без ментора"
+   3. Student View
+         - Профайл Студента [Прототип](https://sonejka.github.io/rs-kittens/dist/student-profile.html)
+         - Таски [Прототип](https://sonejka.github.io/rs-kittens/dist/student-tasks.html)
+         - Расписание [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
+         - Мой ментор [Прототип](https://sonejka.github.io/rs-kittens/dist/student-mentor.html)
+   4. Mentor View
+         - Профайл Ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-profile.html)
+         - Расписание [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
+         - TODO лист ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-todo-list.html)
+         - Мои студенты [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-students.html)     
+   5. Admin View
+      - Управление расписанием [Прототип](https://sonejka.github.io/rs-kittens/dist/admin-schedule.html)
+         - Возможность оставить feedback (кнопка с ссылкой на Google Forms)
+         - [Остальные требования](/use-cases/ui-description-admin-schedule.md)
       - Управление менторами
          - Возможность аппрувнуть профайл потенциального ментора
          - 
       - Управление группами Mentor-Student
          - Название группы студентов - Имя и Фамилия Ментора
-         - Возможность рандомно распределить студентов по группам
+         - Возможность рандомно распределить студентов по группам 
          - Возможность добавлять/отчислять студентов 
          - Возможность перевести студента в другую группу
+    6. 404 page - https://sonejka.github.io/rs-kittens/dist/404.html
          
    
-### Не функциональные требования
+### Нефункциональные требования
    - Стабильная работа на desktop/tablet/mobile
+   - Работоспособность системы 24/7 желательная, но не обязательна
+   - Нагрузка - до 1200 студентов в одном наборе
    
 ### Prototype
   - https://sonejka.github.io/rs-kittens/dist/
