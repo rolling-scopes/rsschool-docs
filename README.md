@@ -30,6 +30,8 @@
    - Интеграция с GitHub
       - автоматизация выдачи приватных репозиториев cтудентам
       - сохранение в систему результатов ревью PR менторами 
+   - Аналитика
+      -  Даты и время, когда студенты/менторы последний раз заходили в систему
       
 ### Функциональные требования в рамках MVP
    1. User roles
@@ -51,19 +53,23 @@
          - Профайл Ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-profile.html)
          - Расписание [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
          - TODO лист ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-todo-list.html)
-         - Мои студенты [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-students.html)     
+         - Мои студенты [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-students.html) 
+           - Возможность отчислять студентов указывая причину
+         - Оценка тасков/интервью/презентаций
    5. Admin View
       - Управление расписанием [Прототип](https://sonejka.github.io/rs-kittens/dist/admin-schedule.html)
-         - Возможность оставить feedback (кнопка с ссылкой на Google Forms)
+         - Возможность у студентов оставить feedback (кнопка с ссылкой на Google Forms)
          - [Остальные требования](/use-cases/ui-description-admin-schedule.md)
       - Управление менторами
          - Возможность аппрувнуть профайл потенциального ментора
-         - 
+         - Возможность приглашать менторов на основании результатов гугл формы "mentors wanted" (csv/excel и т.д.) через инвайты
       - Управление группами Mentor-Student
          - Название группы студентов - Имя и Фамилия Ментора
          - Возможность рандомно распределить студентов по группам 
          - Возможность добавлять/отчислять студентов 
          - Возможность перевести студента в другую группу
+      - Управление ассайментами
+         - Возможность залить оценки по определенному таску из excel. Формат: github аккаунт студента - оценка - комментарий. Будет использоваться для тестов по html/css, результатов интервью и т.д.  
     6. 404 page - https://sonejka.github.io/rs-kittens/dist/404.html
          
    
@@ -71,6 +77,12 @@
    - Стабильная работа на desktop/tablet/mobile
    - Работоспособность системы 24/7 желательная, но не обязательна
    - Нагрузка - до 1200 студентов в одном наборе
+
+### Git repositories
+- https://github.com/rolling-scopes/rsschool-ui
+- https://github.com/rolling-scopes/rsschool-api
+- https://github.com/rolling-scopes/rsschool-docs
+- https://github.com/rolling-scopes/rsschool-scripts
    
 ### Prototype
   - https://sonejka.github.io/rs-kittens/dist/
