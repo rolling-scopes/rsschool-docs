@@ -33,32 +33,35 @@
    - Аналитика
       -  Даты и время, когда студенты/менторы последний раз заходили в систему
       
+### Группы пользователей в рамках MVP
+ - Student
+ - Admin. Принадлежность к данной роли на основании конфигурации в репозитории.
+ - Mentor. Принадлежность к данной роли на основании Admin аппрува. Лекторы тоже относятся к данной категории. 
+      
 ### Функциональные требования в рамках MVP
-   1. User roles
-      - Admin (принадлежность к роли на основании конфигурации в репозитории)
-      - Mentor (лекторы тоже относятся к данной категории) 
-      - Student 
-   2. Login Page ([Прототип](https://sonejka.github.io/rs-kittens/dist/login.html))
+   1. Login Page ([Прототип](https://sonejka.github.io/rs-kittens/dist/login.html))
       - Возможность залогиниться как студент или как ментор
       - Все пользователи (менторы и студенты) логинятся только через GitHub
       - Все пользователи автоматически ассайнятся на курс 2018Q3
       - Админ должен аппрувнуть профайл ментора после его заполнения ментором
       - Студенты автоматически ассайнятся в общую группу "без ментора"
-   3. Student View
+      - После логина студенты видят Student View
+      - После логина менторы видят Mentor View
+   2. Список страниц для Student View
          - Профайл Студента [Прототип](https://sonejka.github.io/rs-kittens/dist/student-profile.html)
          - Таски [Прототип](https://sonejka.github.io/rs-kittens/dist/student-tasks.html)
-         - Расписание [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
+         - Расписание Read-only [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
            - Возможность оставить feedback (кнопка с ссылкой на Google Forms)
          - Мой ментор [Прототип](https://sonejka.github.io/rs-kittens/dist/student-mentor.html)
-   4. Mentor View
+   3. Список страниц для Mentor View
          - Профайл Ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-profile.html)
-         - Расписание [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
+         - Расписание Read-only [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
            - Возможность оставить feedback (кнопка с ссылкой на Google Forms)
          - TODO лист ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-todo-list.html)
          - Мои студенты [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-students.html) 
            - Возможность отчислять студентов, указывая причину
          - Оценка тасков/интервью/презентаций
-   5. Admin View
+   4. Admin View
       - Управление расписанием [Прототип](https://sonejka.github.io/rs-kittens/dist/admin-schedule.html)
          - [Требования](/use-cases/ui-description-admin-schedule.md)
       - Управление менторами
@@ -71,7 +74,7 @@
          - Возможность перевести студента в другую группу
       - Управление ассайментами
          - Возможность залить оценки по определенному таску из excel. Формат: github аккаунт студента - оценка - комментарий. Будет использоваться для тестов по html/css, результатов интервью и т.д.  
-    6. 404 page - https://sonejka.github.io/rs-kittens/dist/404.html
+    5. 404 page - https://sonejka.github.io/rs-kittens/dist/404.html
          
    
 ### Нефункциональные требования
