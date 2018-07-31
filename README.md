@@ -51,12 +51,10 @@
          - Профайл Студента [Прототип](https://sonejka.github.io/rs-kittens/dist/student-profile.html)
          - Таски [Прототип](https://sonejka.github.io/rs-kittens/dist/student-tasks.html)
          - Расписание Read-only [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
-           - Возможность оставить feedback (кнопка с ссылкой на Google Forms)
          - Мой ментор [Прототип](https://sonejka.github.io/rs-kittens/dist/student-mentor.html)
    3. Список страниц для Mentor View
          - Профайл Ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-profile.html)
          - Расписание Read-only [Прототип](https://sonejka.github.io/rs-kittens/dist/schedule.html)
-           - Возможность оставить feedback (кнопка с ссылкой на Google Forms)
          - TODO лист ментора [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-todo-list.html)
          - Мои студенты [Прототип](https://sonejka.github.io/rs-kittens/dist/mentor-students.html) 
            - Возможность отчислять студентов, указывая причину
