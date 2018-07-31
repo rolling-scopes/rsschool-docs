@@ -4,7 +4,7 @@
 ```
 studentId           
 assigmentRepo        #string
-assigmentComment     #markdown string with predefined template
+studentComment     #markdown string with predefined template
 completeDate
 mentorId
 mentorComment        #markdown string with predefined template
@@ -12,7 +12,7 @@ mentorScore          #number
 checkDate
 ```
 
-## Поля `assigmentComment` и `mentorComment`
+## Поля `studentComment` и `mentorComment`
 Хранят markdown. Могут быть использованны, например, для:
    - указания темы презентации студентов
    - сохранения результатов интервью / тестов
