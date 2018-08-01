@@ -41,4 +41,8 @@ n/a
 2. Если студент или ментор не найден. Ошибки - `"student ${student GitHub} not found"` или `"mentor ${mentor GitHub} not found"`
 3. Если столбец score содержит не целочисленное число. Ошибка - `"student ${student GitHub}" score is not a whole number`
 
+### Схема данных
+
+![data scheme](http://varabei.com/public/RSSchoolApp-task.png)
+
 
