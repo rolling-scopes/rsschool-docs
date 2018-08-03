@@ -80,6 +80,10 @@
    - Поддержка браузеров последней версии. 
    - Работоспособность системы 24/7 желательна, но не обязательна
    - Нагрузка - до 1200 студентов в одном наборе
+   
+### Схема данных (Draft)
+![data scheme](http://varabei.com/public/RSSchoolApp.png)
+
 
 ### Git repositories
 - https://github.com/rolling-scopes/rsschool-ui
