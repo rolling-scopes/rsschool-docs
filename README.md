@@ -84,6 +84,11 @@
 ### Схема данных (Draft)
 ![data scheme](http://varabei.com/public/RSSchoolApp.png)
 
+#### Комментарии
+1. Assignments
+   - При создании нового таска, ассаймет для каждого студента курса создаётся автоматически. 
+   - Начальный статус - Assigned, далее после выполнения студентов задания - ReadyForReview. Ментор проверяет и либо ставит оценку, либо отправляет на переделку (Rejected или Сhecked).
+
 
 ### Git repositories
 - https://github.com/rolling-scopes/rsschool-ui
