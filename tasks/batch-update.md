@@ -1,5 +1,16 @@
 # Batch update 
 
+### Dev Team
+Lead:
+Siarhei Smantsar @SIARHEI-SMANTSAR Skype: ssi-20 
+
+Devs:
+1) @kakoc @KatieVo
+2) @Morfinbrood @LipinArts
+3) @YuliyaHlukhatarenka  
+4) @Leamhein
+5) @NSpeko
+
 ### Description
 Необходимо реализовать логику по импорту оценок и результатов интервью в RSSchoolApp из xlsx формата.
 
