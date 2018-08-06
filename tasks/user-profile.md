@@ -13,7 +13,7 @@ Devs:
 ## Основные данные пользователей
 Все основные данные пользователей (менторов и студентов) должны хранится в коллекции `Users`.
 
-#### Компонент Personal Information 
+#### Блок Personal Information 
 Данные заполняют студенты и менторы.
   - firstName: string
   - lastName: string
@@ -24,7 +24,7 @@ Devs:
   - dateOfbirth: date
   - tShirtSize: XS, S, M, L, XL, XXL, XXXL
 
-#### Компонент Education
+#### Блок Education
 Данные заполняют только студенты. [Данные по учебным заведениям](https://docs.google.com/spreadsheets/d/1kmho7VVh9bCQddXfkCN4CPrauAnrTpa0MH19ZvyHAoo/edit#gid=0)
   - education 
     - university: string
@@ -32,19 +32,21 @@ Devs:
     - graduationYear: number
   - englishLevel: A1, A2, B1, B2, C1, C2
   
-#### Компонент Employment History 
+#### Блок Employment History 
 Данные заполняют студенты и менторы.
   - employmentHistory: string
   - epamDetails
     - isEPAMEmployee: true/false
     - epamEmail: string
     - epamUpsaId: string
-  - experience
+  - experience (**заполняют только менторы**)
      - yearsInFrontEnd: less then 1, 1, 2, 3, 4, 5+
      - isStudiedAtRSSchool: true/false
      - hadMentoringExperience: true/false
-    
-#### Компонент Contacts
+  - isInternshipNeeded: true/false (**заполняют только студенты**)
+  - isWorkNeeded: true/false (**заполняют только студенты**)
+  
+#### Блок Contacts
 Данные заполняют студенты и менторы.    
   - contacts
     - phone: string
@@ -53,25 +55,24 @@ Devs:
     - telegram: string
     - other: string
  
- #### Компонент Other
+ #### Other
  Данные заполняют студенты и менторы. 
   - notes: string
   - isEmailNotificationEnabled: true/false
  
- #### Данные на основании логина
-  - githubId (данные на основании логина)
+ #### Данные на основании логина в систему
+  - githubId (аккаунт через который логинится пользователь)
   - firstLoginDate (дата первого логина)
   - lastLoginDate (дата последнего логина)
 
 ## Дополнительная информация в коллекции `CourseStudent`
-  - isInternshipNeeded: true/false
-  - isWorkNeeded: true/false
-  - status
+  - status: enrolled, expelled (**может изменить только ментор или админ**)
+  - statusNote: string (**может изменить только ментор или админ**)
   
 ## Дополнительная информация в коллекции `CourseMentor`
-  - menteeCapacity
-  - mentees
-  - status
+  - menteeCapacity: number
+  - mentees: array
+  - status: 
   - notesForMentees
   - assignment: 
     - stage2: true/false
