@@ -102,6 +102,10 @@
 ### Contributing
 https://gist.github.com/apalchys/71c36f71c314a725b9bd05fac5f6f801
 
+### Meduim
+- [How To Contribute to rsschool-api](https://medium.com/@rolling.scopes/how-to-contribute-to-rsschool-api-c862d4b308d)
+- [Как начать дебажить rsschool-api](https://medium.com/@dzmitry.varabei/%D0%BA%D0%B0%D0%BA-%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%B5%D0%B1%D0%B0%D0%B6%D0%B8%D1%82%D1%8C-rsschool-api-23d737422787)
+
 ### Crew
   - [Dzmitry Varabei @dzmitry-varabei](https://github.com/dzmitry-varabei/) - Project Owner
   - [Andrei Palchys @apalchys](https://github.com/apalchys) - Dev Lead
