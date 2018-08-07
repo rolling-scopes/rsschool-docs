@@ -12,7 +12,7 @@ Devs:
 В рамках этого таска необходимо реализовать front-end для сдачи этих задач, а также выполнить интеграцию с созданием тасков на странице [Admin Schedule](https://sonejka.github.io/rs-kittens/dist/admin-schedule.html) 
 
 ### Use case
-1. Пользователь с ролью `Admin` открывает страницу [Admin Schedule](https://sonejka.github.io/rs-kittens/dist/admin-schedule.html) (Имплементация уже есть). 
+1. Пользователь с ролью `Admin` открывает страницу [Admin Schedule](https://sonejka.github.io/rs-kittens/dist/admin-schedule.html) (Имплементацию делал Siarhei Smantsar @SIARHEI-SMANTSAR Skype: ssi-20). 
 2. Создает таск указывая следующие критерии:
    - Task Title: Love triangle
    - Task type: task
