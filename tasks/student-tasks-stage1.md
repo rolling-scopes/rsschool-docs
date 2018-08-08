@@ -5,7 +5,11 @@ Lead:
 Yuliya Haluza @yuliaHope	Skype: yuliaka71, Telegram: @yuliaka71 
 
 Devs:
-1) 
+1) @Zhukovets @nikkaktus24
+2) @ymartsevich @grapeperson
+3) @anastminsk @VladSanko
+4) @Catrieona @mrsDandelion
+5) @KurnosovNikita @morzh1205
 
 ### Description
 На протяжении RSSchool stage#1 студенты решают ряд алгоритмических задач. 
