@@ -17,8 +17,8 @@ Devs:
 ### В рамках этого таска необходимо реализовать следующий страницы
 1. [student view / profile](https://sonejka.github.io/rs-kittens/dist/student-profile.html)
 2. [mentor view / profile](https://sonejka.github.io/rs-kittens/dist/mentor-profile.html)
-3. [admin view / student profile](https://sonejka.github.io/rs-kittens/dist/admin-mentor-profile.html)
-4. [admin view / mentor profile](https://sonejka.github.io/rs-kittens/dist/admin-student-profile.html)
+3. [admin view / student profile](https://sonejka.github.io/rs-kittens/dist/admin-student-profile.html)
+4. [admin view / mentor profile](https://sonejka.github.io/rs-kittens/dist/admin-mentor-profile.html)
 
 ## Основные данные пользователей
 Все основные данные пользователей (менторов и студентов) должны хранится в коллекции `Users`.
