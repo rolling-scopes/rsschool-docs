@@ -89,7 +89,6 @@
    - При создании нового таска, ассаймет для каждого студента курса создаётся автоматически. 
    - Начальный статус - Assigned, далее после выполнения студентов задания - ReadyForReview. Ментор проверяет и либо ставит оценку, либо отправляет на переделку (Rejected или Сhecked).
 
-
 ### Git repositories
 - https://github.com/rolling-scopes/rsschool-ui
 - https://github.com/rolling-scopes/rsschool-api
@@ -99,12 +98,12 @@
 ### Prototype
   - https://sonejka.github.io/rs-kittens/dist/
   
-### Contributing
-https://gist.github.com/apalchys/71c36f71c314a725b9bd05fac5f6f801
-
-### Meduim
-- [How To Contribute to rsschool-api](https://medium.com/@rolling.scopes/how-to-contribute-to-rsschool-api-c862d4b308d)
-- [Как начать дебажить rsschool-api](https://medium.com/@dzmitry.varabei/%D0%BA%D0%B0%D0%BA-%D0%BD%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%B5%D0%B1%D0%B0%D0%B6%D0%B8%D1%82%D1%8C-rsschool-api-23d737422787)
+# C чего начать?
+1. Присоединиться к [slack группе](https://join.slack.com/t/rsschool-app/shared_invite/enQtNDEyOTUyOTUyOTY1LWNhMTUwNjk5ZWY1ODYyMDE4ZDVhM2RhZGU2MDU2MGU1ZTczZjgyZjNiYTgyYzExYTY3MDc5ZWM0Y2NlMzcxZTg)
+2. Прочитать CONTRIBUTING.md 
+    - [rsschool-ui](https://github.com/rolling-scopes/rsschool-ui/blob/master/CONTRIBUTING.md)
+    - [rsschool-api](https://github.com/rolling-scopes/rsschool-api/blob/master/CONTRIBUTING.md)
+3. Ознакомиться с циклом статей, посвященных разработке приложения - https://medium.com/rs-school
 
 ### Crew
   - [Dzmitry Varabei @dzmitry-varabei](https://github.com/dzmitry-varabei/) - Project Owner
