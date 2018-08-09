@@ -105,13 +105,15 @@
     - [rsschool-api](https://github.com/rolling-scopes/rsschool-api/blob/master/CONTRIBUTING.md)
 3. Ознакомиться с циклом статей, посвященных разработке приложения - https://medium.com/rs-school
 
-### Crew
+# Crew
   - [Dzmitry Varabei @dzmitry-varabei](https://github.com/dzmitry-varabei/) - Project Owner
   - [Andrei Palchys @apalchys](https://github.com/apalchys) - Dev Lead
   - [Kseniya Varabei @sonejka](https://github.com/sonejka) - UX & Prototype
-  - [Tsikhan Shcharbakou @forkollaider](https://github.com/forkollaider) - Tasks CRUD / Review / Automated Checking 
-  - [Nikita Rudy @NikitaRudy](https://github.com/NikitaRudy) - Tasks CRUD / Review / Automated Checking 
-  - [Siarhei Smantsar @SIARHEI-SMANTSAR](https://github.com/SIARHEI-SMANTSAR) - Calendar 
+  - [Tsikhan Shcharbakou @forkollaider](https://github.com/forkollaider) - Tasks  
+  - [Nikita Rudy @NikitaRudy](https://github.com/NikitaRudy) -  User profile
+  - [Siarhei Smantsar @SIARHEI-SMANTSAR](https://github.com/SIARHEI-SMANTSAR) - Schedule / Batch update
+  - [Yuliya Haluza @yuliaHope](https://github.com/yuliaHope) - Tasks
+  - [Miatselski Mikhail @mmetelskiy](https://github.com/mmetelskiy) - Notifications 
 
 
  
