@@ -6,7 +6,8 @@
   - https://sonejka.github.io/rs-kittens/dist/
   
 ### Contributing
-https://gist.github.com/apalchys/71c36f71c314a725b9bd05fac5f6f801
+* API https://github.com/rolling-scopes/rsschool-api/blob/master/CONTRIBUTING.md
+* UI https://github.com/rolling-scopes/rsschool-ui/blob/master/CONTRIBUTING.md
 
 ### Crew
   - [Dzmitry Varabei @dzmitry-varabei](https://github.com/dzmitry-varabei/) - Project Owner
