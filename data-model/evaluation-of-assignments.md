@@ -4,7 +4,7 @@
 ```
 studentId           
 assigmentRepo        #string
-assigmentComment     #markdown string with predefined template
+studentComment     #markdown string with predefined template
 completeDate
 mentorId
 mentorComment        #markdown string with predefined template
@@ -12,13 +12,28 @@ mentorScore          #number
 checkDate
 ```
 
+## Поля `studentComment` и `mentorComment`
+Хранят markdown. Могут быть использованны, например, для:
+   - указания темы презентации студентов
+   - сохранения результатов интервью / тестов
+   - замечаний к работе и т.д.
+
 ## Возможные сценарии оценки заданий.
+
+
+### Оценка тасков первого этапа (Это функциональность есть в https://epa.ms/padawans-2018)
+```
+[Student] Решает таск в своём public репозитории
+[Student] Указывает ссылку на репозиторий
+[System]  Выставляет оценку на оснавании выполенния юнит тестов
+```
 
 ### Оценка тасков типа "CodeJam"
 ```
 [Student] Указывает ссылку на репозиторий
 [Student] Указывает ссылку на демо страницу
 [Student] Оставляет комментарий к работе
+[Student] Нажимает кнопку "Ready for review"
 [Mentor]  Оставляет комментарий к работе
 [Mentor]  Выставляет оценку
 ```
@@ -29,6 +44,7 @@ checkDate
 [Student] Указывает ссылку на репозиторий
 [Student] Указывает ссылку на демо страницу
 [Student] Оставляет комментарий к работе
+[Student] Нажимает кнопку "Ready for review"
 [Mentor]  Оставляет комментарий к работе
 [Mentor]  Выставляет оценку
 ```
