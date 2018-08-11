@@ -6,9 +6,10 @@ Tsikhan Shcharbakou @forkollaider Skype: tikhon.scherbakov
 
 Devs:
 1. @NikaNeider @cruecer @JuliaMargun
-2. @lipnitsky93 @DenisKozyrev
+2. @lipnitsky93 @DenisKozyrev @Korbut-Yura
 3. @LowerShotower @Frol8612
 4. @lehaazarenko @Nadoni
+5. @Hleb-Ivanou @ZabavskyAlex 
 
 
 ## Description 
