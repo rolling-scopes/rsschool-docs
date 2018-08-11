@@ -5,6 +5,11 @@ Lead:
 Tsikhan Shcharbakou @forkollaider Skype: tikhon.scherbakov
 
 Devs:
+1. @NikaNeider @cruecer @JuliaMargun
+2. @lipnitsky93 @DenisKozyrev
+3. @LowerShotower @Frol8612
+4. @lehaazarenko @Nadoni
+
 
 ## Description 
 После первого этапа обучения в RS School студенты распределяются среди менторов. 
