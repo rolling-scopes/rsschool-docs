@@ -73,8 +73,13 @@
          - Возможность перевести студента в другую группу
       - Управление ассайментами
          - Возможность залить оценки по определенному таску из excel. Формат: github аккаунт студента - оценка - комментарий. Будет использоваться для тестов по html/css, результатов интервью и т.д.  
-    5. 404 page - https://sonejka.github.io/rs-kittens/dist/404.html
-         
+   5. 404 page - https://sonejka.github.io/rs-kittens/dist/404.html
+   6. Репликация оценок в Score (Google Spreadsheet)
+   7. Автоматизированная процерка тасков
+      - Duolingo (раз в сутки)
+      - Lingualeo (раз в сутки)
+      - Codewars (раз в сутки до определённой даты)
+      - Codeschool (Chrome DevTools, HTML/CSS) (определённая дата)
    
 ### Нефункциональные требования
    - Стабильная работа на desktop/tablet/mobile
