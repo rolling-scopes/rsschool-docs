@@ -95,7 +95,7 @@
   - https://sonejka.github.io/rs-kittens/dist/
   
 # C чего начать?
-1. Присоединиться к [slack группе](https://join.slack.com/t/rsschool-app/shared_invite/enQtNDEyOTUyOTUyOTY1LWNhMTUwNjk5ZWY1ODYyMDE4ZDVhM2RhZGU2MDU2MGU1ZTczZjgyZjNiYTgyYzExYTY3MDc5ZWM0Y2NlMzcxZTg)
+1. Присоединиться к [slack группе](https://join.slack.com/t/rsschool-app/shared_invite/enQtNDU4Mjc5MDQyODUzLTEzMWIzMDNkNGQwZTBiYzBmYThjOTY5NWIzNGMxOTIwN2RhZDFlYzNkMDU1MDM4OGE3OWY2ZWIxMTM1NTZhMDE)
 2. Прочитать CONTRIBUTING.md 
     - [rsschool-ui](https://github.com/rolling-scopes/rsschool-ui/blob/master/CONTRIBUTING.md)
     - [rsschool-api](https://github.com/rolling-scopes/rsschool-api/blob/master/CONTRIBUTING.md)
